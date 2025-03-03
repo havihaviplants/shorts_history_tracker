@@ -1,0 +1,22 @@
+name: shorts_history_tracker
+description: Instagram WebView 방문 기록 저장 앱
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.10.0
+  webview_flutter_android: ^4.3.2  # ✅ 최신 버전으로 업데이트
+  webview_flutter_wkwebview: ^3.18.1
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  google_mobile_ads: ^5.3.1
+  in_app_purchase: ^3.2.1
+  url_launcher: ^6.2.1
+  flutter_secure_storage: ^9.0.0
+
+flutter:
+  uses-material-design: true
